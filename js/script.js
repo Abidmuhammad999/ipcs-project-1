@@ -45,13 +45,13 @@ window.onscroll = () => {
 var swiper = new Swiper(".product-slider", {
     loop: true,
     spaceBetween: 20,
-    autoplay:{
-        delay:7500,
-        disableOnInteraction:false,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
     },
-    centeredslides:true,
+    centeredslides: true,
     breakpoints: {
-      0: {
+        0: {
             slidesPerView: 1,
         },
         768: {
@@ -66,13 +66,13 @@ var swiper = new Swiper(".product-slider", {
 var swiper = new Swiper(".review-slider", {
     loop: true,
     spaceBetween: 20,
-    autoplay:{
-        delay:7500,
-        disableOnInteraction:false,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
     },
-    centeredslides:true,
+    centeredslides: true,
     breakpoints: {
-      0: {
+        0: {
             slidesPerView: 1,
         },
         768: {
